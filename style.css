@@ -1,0 +1,137 @@
+body{
+  background-image: url(no.jpg);
+}
+.navbar{
+position: absolute;
+top: 0%;
+left: 70%;
+}
+.navbar ul{
+list-style-type: none;
+}
+.navbar ul li{
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+}
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  .shadow__btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+h2{
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px black;
+}
+h1{
+  color: #fff;
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px black;
+  font-size: 60px;
+}
+p{
+  color: #fff;
+  position: absolute;
+  left: 12%;
+  top: 34%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px rgb(131, 11, 87);
+  font-size: 20px;
+
+}
+.card {
+  width: 600px;
+  height: 280px;
+  transition: all 0.2s;
+  position: relative;
+  position: absolute;
+  cursor: pointer;
+  top: 25%;
+  left: 10%;
+}
+
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#b0e633, #53ef7d);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+ 
+ 
+  
+  
